@@ -8,18 +8,20 @@ This repository contains the official, curated anthology of research papers and 
 
 ## Overview
 
-This work presents a comprehensive survey of NLP research for Tigrinya, analyzing **45 studies** published between **2011 and 2025**. We systematically review the current state of computational resources, models, and applications across **ten distinct NLP tasks**, including:
+This work presents a comprehensive survey of NLP research for Tigrinya, analyzing over **50 studies** published between **2011 and 2025**. We systematically review the current state of computational resources, models, and applications across multiple downstream tasks, including:
 
 - **Morphological Processing** - Rule-based stemmers, finite-state transducers, neural boundary detection
-- **Machine Translation** - Statistical MT, Neural MT, transfer learning approaches  
+- **Machine Translation** - Statistical MT, Neural MT, transfer learning approaches
 - **Part-of-Speech Tagging** - CRF/SVM models, BiLSTM architectures, transformer fine-tuning
 - **Named Entity Recognition** - Small-scale to large-scale annotated datasets and models
-- **Text Classification** - News categorization, sentiment analysis, hate speech detection
-- **Language/Dialect Identification** - Mutual intelligibility studies, dialect detection
-- **Language Modeling** - Monolingual corpora construction, pre-trained transformer models
+- **Text Classification** - Topic categorization, sentiment analysis, hate speech detection
 - **Question-Answering** - Factoid QA, reading comprehension benchmarks, educational datasets
+- **Language Modeling** - Monolingual corpora construction, pre-trained transformer models
+- **Automatic Speech Recognition** - Corpus design, deep neural networks, hybrid CTC-Attention models
+- **Text-to-Speech** - Concatenative synthesis, neural TTS (Tacotron), massively multilingual speech models
 - **Optical Character Recognition** - GLOCR dataset, CRNN-based models for Ge'ez script
-- **Speech Recognition** - Corpus design, deep neural network applications
+- **Information Retrieval** - Word stemming for lexical retrieval, bi-encoder models for semantic search
+- **Language/Dialect Identification** - Mutual intelligibility studies, dialect detection
 
 The research spans from early rule-based systems (2011) to modern neural architectures and large language models (2025), highlighting how community-led dataset creation has been the primary catalyst for advancement.
 
@@ -69,9 +71,9 @@ When adding new entries, please include:
 - Complete bibliographic information (authors, title, venue, year, abstract, doi, etc)
 - Primary NLP task classification using the `tasks` field. Multiple task areas can be separated by commas.
 
-## Citing this Work
+## Citation
 
-If you use the resources in this anthology for your research, you can cite the corresponding paper:
+If you use the anthology in your research, you can cite the corresponding paper:
 
 ```bibtex
 @misc{gaim-park-2025-tigrinya-nlp-anthology,
@@ -82,7 +84,7 @@ If you use the resources in this anthology for your research, you can cite the c
     eprint={2507.17974},
     archivePrefix={arXiv},
     primaryClass={cs.CL},
-    url={https://arxiv.org/abs/2507.17974}, 
+    url={https://arxiv.org/abs/2507.17974}
 }
 ```
 
